@@ -36,7 +36,9 @@ chmod +x .ddev/generate-xdebug-host-ip.sh
 6.  Manually (for now), make the following changes to the Drupal site's .ddev/config.yaml file:
 
 `router_http_port: "80"` -> `router_http_port: "8080"`
+
 `router_https_port: "443"` -> `router_https_port: "8443"`
+
 `use_dns_when_possible: true` -> `use_dns_when_possible: false`
 
 7.  Commit and push all changes to GitHub.
