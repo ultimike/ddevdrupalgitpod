@@ -3,7 +3,7 @@
     "description": "Composer plugin to add Gitpod.io support for DDEV-Local Drupal sites.",
     "type": "library",
     "require": {
-        "drupal/core-composer-scaffold": "^8.8"
+        "drupal/core-composer-scaffold": "^8"
     },
     "license": "GNU General Public License, version 2",
     "authors": [
