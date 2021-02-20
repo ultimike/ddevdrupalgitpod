@@ -1,10 +1,10 @@
-#DDEV + Drupal + Gitpod.io
+# DDEV + Drupal + Gitpod.io
 
-##Description
+## Description
 
 This library adds the required files to a DDEV-Local configured Drupal 9 site so that the site can be used with Gitpod.io.
 
-##Instructions for use
+## Instructions for use
 
 1.  Start with a Drupal 9 site (based on the drupal/recommended-project Composer template) with a DDEV-Local configuration file, committed to a GitHub.com repository. 
 2.  Add the following to the Drupal site's composer.json file "repositories" section:
