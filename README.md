@@ -44,3 +44,5 @@ chmod +x .ddev/generate-xdebug-host-ip.sh
 7.  Commit and push all changes to GitHub.
 
 8.  In your browser, go to https://gitpod.io/#github.com/vendor/name replacing "vendor/name" with your project vendor/name on Github.com.
+
+9. Use `gp url 8080` in the Gitpod.io Terminal to view the Drupal site's URL.
