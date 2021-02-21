@@ -20,7 +20,8 @@
         ".ddev/generate-fqdns.sh": "generate-fqdns.sh",
         ".ddev/generate-xdebug-host-ip.sh": "generate-xdebug-host-ip.sh",
         ".ddev/ddevdrupalgitpod.txt": "ddevdrupalgitpod.txt"
-      }
+      },
+      "gitignore": false
     }
   }
 }
