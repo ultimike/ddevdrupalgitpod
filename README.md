@@ -26,15 +26,10 @@ This library adds the required files to a DDEV-Local configured Drupal 9 site so
 
 4.  `composer require ultimike/ddevdrupalgitpod:dev-main`
 
-5.  Manually (for now) give execute permissions to the following files:
+5.  Commit and push all changes to GitHub.
 
-```
-chmod +x .ddev/generate-fqdns.sh
-chmod +x .ddev/generate-xdebug-host-ip.sh
-```
+6.  In your browser, go to https://gitpod.io/#github.com/vendor/name replacing "vendor/name" with your project vendor/name on Github.com.
 
-6.  Commit and push all changes to GitHub.
+7. Wait for the "" message to appear in Gitpod.io interface.
 
-7.  In your browser, go to https://gitpod.io/#github.com/vendor/name replacing "vendor/name" with your project vendor/name on Github.com.
-
-8. Use `gp url 8080` in the Gitpod.io Terminal to view the Drupal site's URL.
+9. Use `gp url 8080` in the Gitpod.io Terminal to view the Drupal site's URL.

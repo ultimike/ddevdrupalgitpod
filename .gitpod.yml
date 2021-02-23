@@ -20,6 +20,8 @@ tasks:
       docker rmi -f $(docker images -q) || true
       mkcert -install
       ddev config global --instrumentation-opt-in=true --router-bind-all-interfaces=true
+      chmod +x .ddev/generate-fqdns.sh
+      chmod +x .ddev/generate-xdebug-host-ip.sh
       .ddev/generate-fqdns.sh
       .ddev/generate-xdebug-host-ip.sh
       cp .ddev/ddevdrupalgitpod.txt .ddev/config.ddevdrupalgitpod.yaml
