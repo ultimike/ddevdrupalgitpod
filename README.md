@@ -32,6 +32,6 @@ This work is 100% based on the amazing work that Ofer Shaal did in figuring out 
 
 6.  In your browser, go to https://gitpod.io/#github.com/vendor/name replacing "vendor/name" with your project vendor/name on Github.com.
 
-7. Wait for the "" message to appear in Gitpod.io interface.
+7. Wait for the "A service is available on port 8080" message to appear in Gitpod.io Terminal interface.
 
 9. Use `gp url 8080` in the Gitpod.io Terminal to view the Drupal site's URL.
